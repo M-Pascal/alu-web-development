@@ -1,1 +1,1 @@
-My frist lesson is terrific
+My first lesson is terrific
