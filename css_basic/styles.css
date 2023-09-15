@@ -1,13 +1,14 @@
 /* Apply display: flex to body and main */
 body {
     display: flex;
-    flex-direction: column; /* Column layout for header, main, and footer */
+    flex-direction: column; /* Arrange header, main, and footer in a column */
     height: 100vh; /* Ensure full viewport height */
     margin: 0; /* Remove default margin */
 }
 
 main {
     display: flex;
+    flex-direction: row; /* Arrange article and aside in a row */
     flex: auto; /* Automatically take remaining available space */
 }
 
