@@ -1,0 +1,27 @@
+/* Apply display: flex and flex-direction: column to <body> */
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Apply display: flex, flex-direction: row, flex: auto to <main> */
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  /* Specify the width ratio for <article> and <aside> */
+  article {
+    flex: 2; /* Takes up 2/3 of the available width */
+  }
+  
+  aside {
+    flex: 1; /* Takes up 1/3 of the available width */
+  }
+  
+  /* Enable vertical scrolling for <article> and <aside> */
+  article, aside {
+    overflow-y: auto;
+  }
+  
