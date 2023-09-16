@@ -1,1 +1,0 @@
-Learning CSS for designing my own webpage.
