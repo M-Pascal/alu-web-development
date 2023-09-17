@@ -14,6 +14,7 @@ body {
   /* Specify the width ratio for <article> and <aside> */
   article {
     flex: 2; /* Takes up 2/3 of the available width */
+    image: size 5px;
   }
   
   aside {
@@ -47,6 +48,7 @@ body {
   main {
     background-color: #fff;
     padding: 20px;
+    size: 5cm;
   }
   
   /* Style the article content */
@@ -54,6 +56,7 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
     margin-right: 10px; /* Add some space between article and aside */
+    size:5cm;
   }
   
   /* Style the aside content */
