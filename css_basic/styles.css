@@ -14,7 +14,6 @@ body {
   /* Specify the width ratio for <article> and <aside> */
   article {
     flex: 2; /* Takes up 2/3 of the available width */
-    image: size 5px;
   }
   
   aside {
@@ -68,7 +67,7 @@ body {
   
   /* Style the footer */
   footer {
-    background-color: #333;
+    background-color: #37825f;
     color: #fff;
     text-align: center;
     padding: 10px;
