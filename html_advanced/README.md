@@ -1,2 +1,2 @@
 HTML advanced project for web development.
-![README](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Ftutorials%2Fdevops-tutorial%2Fdevops-tools&psig=AOvVaw0AwDrT4MiXlYE-hnwjcb8v&ust=1695374096806000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPjk0PSuu4EDFQAAAAAdAAAAABAI)
+![README](photos/readme.png)
