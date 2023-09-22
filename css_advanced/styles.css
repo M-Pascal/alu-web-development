@@ -1,0 +1,184 @@
+body {
+    background-image: url("Photos/Background.png");
+    flex-direction: column;
+    display: flex;
+}
+.flex-header {
+    flex: 2px;
+}
+.flex-main_part {
+    flex: 1000px;
+}
+.flex-footer {
+    flex: 4px;
+    background-color: #071629;
+    margin: -40px -45.5% 30px -17%;
+    padding: 30px 0 110px 150px;
+}
+.flex-divisions {
+    display: flex;
+    flex-direction: row;
+}
+.links-header-part {
+    position: absolute;
+    right: 15%;
+    /*background-color: rgba(0,245,0,0.2);*/
+    top: 28px;
+}
+.header-link {
+    /*background-color: green;*/
+    color: white;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin: 0px 20px;
+}
+.number-one {
+    /*background-color: rgba(245,0,0,0.3);*/
+    margin-top: 10.3% /*78px*/;
+    /*background-image: url("images/Bitmap7.png");*/
+}
+.first_div {
+    /*background-color: rgba(0,0,245,0.3);*/
+}
+.get_school {
+    /*background-color: rgba(0,245,0,0.3);*/
+    padding-right: 100px;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.feeling {
+    text-align: center;
+    /*background-color: rgba(0,255,0,0.3);*/
+    margin-top: -15px;
+    margin-bottom: 38px;
+    color: white;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.smile {
+    /*background-color: red;*/
+    margin: 0 27px;
+}
+.grin {
+    /*background-color: blue;*/
+    margin: 0 27px;
+}
+.laugh {
+    /*background-color: black;*/
+    margin: 0 27px;
+}
+.register-button {
+    background: #C271FF;
+    height: 44px;
+    width: 15%;
+    border-radius: 22px;
+    position: relative;
+    left: 42%;
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.second_div {
+    /*background-color: rgba(0,0,255,0.3);*/
+    margin-top: 3.0%;
+}
+.learning {
+    text-align: center;
+    /*background-color: rgba(245,0,0,0.3);*/
+    color: white;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.learn {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.all-pros {
+    display: flex;
+    /*background-color: rgba(0,255,0,0.3);*/
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 90px; 
+}
+.images, .author-image{
+    border-radius: 50%;
+}
+.image-names {
+    color: white;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    line-height: 27px;
+    word-wrap: break-word
+}
+.image_texts {
+    color: white;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.space {
+    margin: -1% 45px 0px;
+}
+
+.number-two {
+    margin: 12.85% -45.35% 0 -17%;
+    background-color:#C271FF;
+    padding: 10% 18% 7%;
+}
+.number-two div, .number-two div div {
+    display: flex;
+}
+.number-two div {
+    flex-direction: row;
+}
+.number-two div div {
+    flex-direction: column;
+}
+.number-two .name {
+    margin: 40px 0 15px;
+    color: white;
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.number-two .title {
+    color: white;
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.number-two blockquote {
+    color: white;
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.number-two img {
+    margin-top: -20px;
+    margin-right: 30px;
+}
+strong{
+    color: rgb(204, 1, 255);
+}
