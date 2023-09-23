@@ -1,379 +1,362 @@
 body {
-    display: flex;
-    flex-direction: column;
-    background-image: url("Photos/Background_1.png");
-    background-image: radial-gradient(black);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    max-width: 1440px;
-}
-.flex-header {
-    flex: 2px;
-}
-.flex-main_parts {
-    flex: 10;
-}
-.flex-footer {
-    flex: 3;
-    background-color: #071629;
-    margin: -40px -45.5% 30px -17%;
-    padding: 30px 0 110px 150px;
-}
-.flex-divisions {
-    display: flex;
-    flex-direction: row;
-}
-.link-header-part {
-    position: absolute;
-    right: 15%;
-    top: 28px;
-}
-.header-link {
-    color: white;
-    font-size: 12px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-    margin: 0px 20px;
-}
-.number-one {
-    margin-top: 10.3%; /* 78px */;
-}
-.first_div {
-    /*background-color: rgba(0,0,245,0.3);*/
-}
-.get-school {
-    /*background-color: rgba(0,245,0,0.3);*/
-    padding-right: 100px;
-    text-align: center;
-    color: white;
-    font-size: 90px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-.feeling {
-    text-align: center;
-    /*background-color: rgba(0,255,0,0.3);*/
-    margin-top: -15px;
-    margin-bottom: 38px;
-    color: white;
-    font-size: 16px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word
-}
-.smile {
-    /*background-color: red;*/
-    margin: 0 27px;
-}
-.grin {
-    /*background-color: blue;*/
-    margin: 0 27px;
-}
-.laugh {
-    /*background-color: black;*/
-    margin: 0 27px;
-}
-.register-button {
-    background: #C271FF;
-    height: 44px;
-    width: 15%;
-    border-radius: 22px;
-    position: relative;
-    left: 42%;
-    color: white;
-    font-size: 14px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    word-wrap: break-word;
-}
-
-.second-div {
-    /*background-color: rgba(0,0,255,0.3);*/
-    margin-top: 3.0%;
-}
-.learning {
-    text-align: center;
-    /*background-color: rgba(245,0,0,0.3);*/
-    color: white;
-    font-size: 32px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-    word-wrap: break-word;
-}
-.learn {
-    color: #C271FF;
-    font-size: 32px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-.all-pros {
-    display: flex;
-    /*background-color: rgba(0,255,0,0.3);*/
-    flex-direction: row;
-    padding-left: 50px;
-    margin-top: 90px; 
-}
-.images, .author-image{
-    border-radius: 50%;
-}
-.image-names {
-    color: white;
-    font-size: 18px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 900;
-    line-height: 27px;
-    word-wrap: break-word
-}
-.image-text {
-    color: white;
-    font-size: 16px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    word-wrap: break-word
-}
-.space {
-    margin: -1% 45px 0px;
-}
-
-.number-two {
-    margin: 12.85% -45.35% 0 -17%;
-    background-color:#C271FF;
-    padding: 10% 18% 7%;
-}
-.number-two div, .number-two div div {
-    display: flex;
-}
-.number-two div {
-    flex-direction: row;
-}
-.number-two div div {
-    flex-direction: column;
-}
-.number-two .name {
-    margin: 40px 0 15px;
-    color: white;
-    font-size: 19px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-.number-two .title {
-    color: white;
-    font-size: 19px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-.number-two blockquote {
-    color: white;
-    font-size: 19px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-.number-two img {
-    margin-top: -20px;
-    margin-right: 30px;
-}
-
-.number-three {
-    background-color: #FFFFFF;
-    margin: -6% -45.35% 0 -17%;
-}
-.tutorial {
-    text-align: center;
-    color: #071629;
-    font-size: 32px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-    word-wrap: break-word;
-    padding-top: 50px;
-}
-.popular {
-    color: #C271FF;
-    font-size: 32px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-.testmony {
-    display: flex;
-    flex-direction: row;
-    padding: 30px 10px 80px 150px;
-}
-.video {
-    color: #071629;
-    font-size: 16px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-.video-text {
-    color: rgba(7, 22, 41, 0.50);
-    font-size: 14px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    word-wrap: break-word
-}
-.testmony .author-phillip {
-    display: flex;
-    flex-direction: row;
-}
-.testmony .author-phillip img {
-    margin: 15px 5px 15px 0;
-    border-radius: 50%;
-}
-.testmony .author-phillip h3 {
-    margin-top: 15px;
-}
-.testmony .star-rating {
-    display: flex;
-    flex-direction: row;
-}
-.testmony .star-rating p {
-    margin: -4px 0 0 90px;
-    color: #C271FF;
-    font-size: 14px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    line-height: 27px;
-    word-wrap: break-word;
-}
-.phillip {
-    color: #C271FF;
-    font-size: 14px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    line-height: 27px;
-    word-wrap: break-word;
-}
-
-.number-four {
-    background-color: #071629;
-    margin: -3px -45.5% 20px -17%;
-    padding: 30px 0 150px 100px;
-}
-.membership {
-    text-align: center;
-    color: white;
-    font-size: 32px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-    word-wrap: break-word;
-    margin-bottom: 50px;
-}
-.free {
-    color: #C271FF;
-    font-size: 32px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-.number-four-division {
-    display: flex;
-    flex-direction: row;
-}
-.number-four button {
-    position: relative;
-    left: 43%;
-    top: 80px;
-    background: #C271FF;
-    border-radius: 22px;
-    height: 44px;
-    width: 162px;
-    color: white;
-    font-size: 14px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    word-wrap: break-word
-}
-.number-four .number-four-division .divide {
-    margin: 0 90px 0;
-}
-.number-four h2 {
-    color: white;
-    font-size: 18px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    line-height: 26px;
-    word-wrap: break-word;
-}
-.number-four p {
-    color: white;
-    font-size: 14px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    line-height: 26px;
-    word-wrap: break-word;
-}
-
-.number-five {
-    background-color: #fff;
-    margin: -40px -45.5% 30px -17%;
-    padding: 30px 0 40px 150px;
-}
-.number-five-flex {
-    display: flex;
-}
-.number-five-out-division {
-    flex-direction: column;
-    padding: 0 0 0 60px;
-}
-.number-five-in-division {
-    flex-direction: row;
-}
-.answers {
-    text-align: center;
-    color: #071629;
-    font-size: 60px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-    word-wrap: break-word;
-}
-.number-five-in-division h2 {
-    color: #071629;
-    font-size: 16px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-.number-five-in-division p {
-    color: #07162980;
-    font-size: 14px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-.left-block {
-    margin-left: 40px;
-}
-.right-block {
-    margin-left: 240px;
-}
-
-.footer-division {
-    display: flex;
-    flex-direction: row;
-}
-.footer-division div {
-    position: relative;
-    right: -70%;
-}
-.twitter {
-    border-radius: 50%;
-}
-footer p {
-    text-align: center;
-    margin-top: 90px;
-    color: white;
-    font-size: 12px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    word-wrap: break-word;
-}
+    display : flex;
+    flex-direction : column;
+    background-image : url("Photos/Background_1.png");
+    background-repeat : no-repeat;
+    background-position-x : center;
+    max-width : 1440px;
+    }
+    .flex-header {
+    flex : 2px;
+    }
+    .flex-main_parts {
+    flex : 10;
+    }
+    .flex-footer {
+    flex : 3;
+    background-color : #071629;
+    margin : -40px -45.5% 30px -17%;
+    padding : 30px 0 110px 150px;
+    }
+    .flex-divisions {
+    display : flex;
+    flex-direction : row;
+    }
+    .link-header-part {
+    position : absolute;
+    right : 15%;
+    top : 28px;
+    }
+    .header-link {
+    color : white;
+    font-size : 12px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    margin : 0 20px;
+    }
+    .number-one {
+    margin-top : 10.3%;
+    }
+    .get-school {
+    padding-right : 100px;
+    text-align : center;
+    color : white;
+    font-size : 90px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    }
+    .feeling {
+    text-align : center;
+    margin-top : -15px;
+    margin-bottom : 38px;
+    color : white;
+    font-size : 16px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    }
+    .smile {
+    margin : 0 27px;
+    }
+    .grin {
+    margin : 0 27px;
+    }
+    .laugh {
+    margin : 0 27px;
+    }
+    .register-button {
+    background : #C271FF;
+    height : 44px;
+    width : 15%;
+    border-radius : 22px;
+    position : relative;
+    left : 42%;
+    color : white;
+    font-size : 14px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 600;
+    overflow-wrap : break-word;
+    }
+    .second-div {
+    margin-top : 3.0%;
+    flex-direction : row;
+    }
+    .learning {
+    text-align : center;
+    color : white;
+    font-size : 32px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 300;
+    overflow-wrap : break-word;
+    }
+    .learn {
+    color : #C271FF;
+    font-size : 32px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    }
+    .all-pros {
+    display : flex;
+    flex-direction : row;
+    padding-left : 50px;
+    margin-top : 90px;
+    }
+    .images, .author-image {
+    border-radius : 50%;
+    }
+    .image-names {
+    color : white;
+    font-size : 18px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 900;
+    line-height : 27px;
+    overflow-wrap : break-word;
+    }
+    .image-text {
+    color : white;
+    font-size : 16px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-style : italic;
+    font-weight : 400;
+    overflow-wrap : break-word;
+    }
+    .space {
+    margin : -1% 45px 0;
+    }
+    .number-two {
+    margin : 12.85% -45.35% 0 -17%;
+    background-color : #C271FF;
+    padding : 10% 18% 7%;
+    }
+    .number-two div, .number-two div div {
+    display : flex;
+    }
+    .number-two div {
+    flex-direction : row;
+    }
+    .number-two div div {
+    flex-direction : column;
+    }
+    .number-two .name {
+    margin : 40px 0 15px;
+    color : white;
+    font-size : 19px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    }
+    .number-two .title {
+    color : white;
+    font-size : 19px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 400;
+    overflow-wrap : break-word;
+    }
+    .number-two blockquote {
+    color : white;
+    font-size : 19px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 400;
+    overflow-wrap : break-word;
+    }
+    .number-two img {
+    margin-top : -20px;
+    margin-right : 30px;
+    }
+    .number-three {
+    background-color : #FFFFFF;
+    margin : -6% -45.35% 0 -17%;
+    }
+    .tutorial {
+    text-align : center;
+    color : #071629;
+    font-size : 32px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 300;
+    overflow-wrap : break-word;
+    padding-top : 50px;
+    }
+    .popular {
+    color : #C271FF;
+    font-size : 32px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    }
+    .testmony {
+    display : flex;
+    flex-direction : row;
+    padding : 30px 10px 80px 150px;
+    }
+    .video {
+    color : #071629;
+    font-size : 16px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    }
+    .video-text {
+    color : rgb(7, 22, 41, 0.50);
+    font-size : 14px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 400;
+    line-height : 24px;
+    overflow-wrap : break-word;
+    }
+    .testmony .author-phillip {
+    display : flex;
+    flex-direction : row;
+    }
+    .testmony .author-phillip img {
+    margin : 15px 5px 15px 0;
+    border-radius : 50%;
+    }
+    .testmony .author-phillip h3 {
+    margin-top : 15px;
+    }
+    .testmony .star-rating {
+    display : flex;
+    flex-direction : row;
+    }
+    .testmony .star-rating p {
+    margin : -4px 0 0 90px;
+    color : #C271FF;
+    font-size : 14px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 600;
+    line-height : 27px;
+    overflow-wrap : break-word;
+    }
+    .phillip {
+    color : #C271FF;
+    font-size : 14px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 600;
+    line-height : 27px;
+    overflow-wrap : break-word;
+    }
+    .number-four {
+    background-color : #071629;
+    margin : -3px -45.5% 20px -17%;
+    padding : 30px 0 150px 100px;
+    }
+    .membership {
+    text-align : center;
+    color : white;
+    font-size : 32px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 300;
+    overflow-wrap : break-word;
+    margin-bottom : 50px;
+    }
+    .free {
+    color : #C271FF;
+    font-size : 32px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    }
+    .number-four-division {
+    display : flex;
+    flex-direction : row;
+    }
+    .number-four button {
+    position : relative;
+    left : 43%;
+    top : 80px;
+    background : #C271FF;
+    border-radius : 22px;
+    height : 44px;
+    width : 162px;
+    color : white;
+    font-size : 14px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 600;
+    overflow-wrap : break-word;
+    }
+    .number-four .number-four-division .divide {
+    margin : 0 90px 0;
+    }
+    .number-four h2 {
+    color : white;
+    font-size : 18px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 600;
+    line-height : 26px;
+    overflow-wrap : break-word;
+    }
+    .number-four p {
+    color : white;
+    font-size : 14px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 400;
+    line-height : 26px;
+    overflow-wrap : break-word;
+    }
+    .number-five {
+    background-color : #fff;
+    margin : -40px -45.5% 30px -17%;
+    padding : 30px 0 40px 150px;
+    }
+    .number-five-flex {
+    display : flex;
+    }
+    .number-five-out-division {
+    flex-direction : column;
+    padding : 0 0 0 60px;
+    }
+    .number-five-in-division {
+    flex-direction : row;
+    }
+    .answers {
+    text-align : center;
+    color : #071629;
+    font-size : 60px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 300;
+    overflow-wrap : break-word;
+    }
+    .number-five-in-division h2 {
+    color : #071629;
+    font-size : 16px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 700;
+    overflow-wrap : break-word;
+    }
+    .number-five-in-division p {
+    color : #07162980;
+    font-size : 14px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 400;
+    line-height : 24px;
+    overflow-wrap : break-word;
+    }
+    .left-block {
+    margin-left : 40px;
+    }
+    .right-block {
+    margin-left : 240px;
+    }
+    .footer-division {
+    display : flex;
+    flex-direction : row;
+    }
+    .footer-division div {
+    position : relative;
+    right : -70%;
+    }
+    .twitter {
+    border-radius : 50%;
+    }
+    footer p {
+    text-align : center;
+    margin-top : 90px;
+    color : white;
+    font-size : 12px;
+    font-family : "Source Sans Pro", sans-serif;
+    font-weight : 400;
+    overflow-wrap : break-word;
+    }
