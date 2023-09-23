@@ -296,50 +296,50 @@ body {
     line-height : 26px;
     overflow-wrap : break-word;
     }
-    .number-five {
-    background-color : #fff;
-    margin : -40px -45.5% 30px -17%;
-    padding : 30px 0 40px 150px;
-    }
-    .number-five-flex {
-    display : flex;
-    }
-    .number-five-out-division {
-    flex-direction : column;
-    padding : 0 0 0 60px;
-    }
-    .number-five-in-division {
-    flex-direction : row;
-    }
-    .answers {
-    text-align : center;
-    color : #071629;
-    font-size : 60px;
-    font-family : "Source Sans Pro", sans-serif;
-    font-weight : 300;
-    overflow-wrap : break-word;
-    }
-    .number-five-in-division h2 {
-    color : #071629;
-    font-size : 16px;
-    font-family : "Source Sans Pro", sans-serif;
-    font-weight : 700;
-    overflow-wrap : break-word;
-    }
-    .number-five-in-division p {
-    color : #07162980;
-    font-size : 14px;
-    font-family : "Source Sans Pro", sans-serif;
-    font-weight : 400;
-    line-height : 24px;
-    overflow-wrap : break-word;
-    }
-    .left-block {
-    margin-left : 40px;
-    }
-    .right-block {
-    margin-left : 240px;
-    }
+    .fifth_section {
+    background-color: #fff;
+    margin: -40px -45.5% 30px -17%;
+    padding: 30px 0 40px 150px;
+}
+.last-flex {
+    display: flex;
+}
+.last-section-out-division {
+    flex-direction: column;
+    padding: 0 0 0 60px;
+}
+.last-section-in-division {
+    flex-direction: row;
+}
+.answers {
+    text-align: center;
+    color: #071629;
+    font-size: 60px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.last-section-in-division h2 {
+    color: #071629;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.last-section-in-division p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.left-block {
+    margin-left: 40px;
+}
+.right-block {
+    margin-left: 240px;
+}
     .footer-division {
     display : flex;
     flex-direction : row;
