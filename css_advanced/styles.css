@@ -343,7 +343,7 @@ body {
     word-wrap: break-word;
 }
 .number-five-in-division p {
-    color: rgba(7, 22, 41, 0.50);
+    color: #07162980;
     font-size: 14px;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
@@ -376,7 +376,4 @@ footer p {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     word-wrap: break-word;
-}
-strong{
-    color: rgb(204, 1, 255);
 }
